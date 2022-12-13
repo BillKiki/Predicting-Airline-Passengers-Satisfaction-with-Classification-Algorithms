@@ -6,10 +6,12 @@ Accomplished data cleaning and preparation such as:
 - Rows with scores of 0 in the survey of satisfaction are removed (Customers probably did not indicate).
 - Departure Delay and Arrival Delay are combined.
 - Satisfaction target is relabeled as 0 and 1.
+
 Accomplished Feature Selection and Exploratory Data Analysis by Creating visualizations to first understand the business problems, and also identify important features for model building:
 - Find out the proportion of classes in target, and split them by Type of Travel and Type of Customers (To understand the trend of satisfaction - useful later in model evaluation)
 - Identify feature significance for the model through visualizing KDE plots, LASSO paths, and heatmaps.
 - After evaluation and discreet selection, I have decided to drop 'Gender, 'Total Delay','Flight Distance','Age','Gate Location' and 'Departure/Arrival Time Convenience'
+
 Accomplished Model Selection by finding out the best model for the data through Regularization, Cross Validation with an evaluation with an f1 score:
 - Logistic Regression (find out the best C)
 - KNN (find out the best k)
